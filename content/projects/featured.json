@@ -1,0 +1,99 @@
+[
+	{
+		"project": "Avatar:3D Customiser Website",
+		"url": "https://avatar3dcustomiser.vercel.app/",
+		"repo": "Private",
+		"descriptionTitle": "An immersive platform for 3D customization,",
+		"description": "blending AI designs with interactive personalization using React.js and Three.js",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "400", "w": "600", "url": "/img/msc-mock_stack/avatar3.png" }
+		],
+		"stack": [
+			
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" },
+			{"key":"react",       "name":"REACTJS", "type":"devicon"}
+		]
+	},
+	{
+		"project": "Nike Shopping Website | Figma Prototype",
+		"url": "https://www.figma.com/design/CJavDzkuQQve6py2B4XTrG/UX-UI-Project-internship?node-id=0-1&t=x80upopvhpnJeGc5-1",
+		"repo": "Private",
+		"descriptionTitle": "A Nike-themed shopping website recreated using Figma,",
+		"description": " featuring GSAP animations and Three.js 3D effects.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "400", "w": "600", "url": "/img/msc-mock_stack/nike.png" }
+			
+		],
+		"stack": [
+			
+			{ "key": "git",		"name": "FIGMA", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "Park-EZ | Figma Prototype",
+		"url": "https://mysupplyco.com",
+		"repo": "Private",
+		"descriptionTitle": "A convenient app that helps users find the nearest available parking spot in real time.",
+		"description": "With easy navigation and a clean interface, Park-EZ simplifies the parking experience.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "400", "w": "600", "url": "/img/msc-mock_stack/parkez1.png" }
+			
+		],
+		"stack": [
+		
+			{ "key": "git",			"name": "FIGMA", 	"type": "devicon" }
+		
+		]
+	},
+	{
+		"project": "Sorting Visualiser using Python and OpenGL",
+		"url": "",
+		"repo": "Private",
+		"descriptionTitle": "A tool developed with OpenGL and Python to visually demonstrate sorting algorithms,",
+		"description": " enhancing understanding through real-time visualizations.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "left", 	"h": "400", "w": "600", "url": "/img/msc-mock_stack/sorting1.png" }
+			
+		],
+		"stack": [
+			
+			{ "key": "git",		"name": "PYTHON", 	"type": "devicon" },
+			{ "key": "git",		"name": "OPENGL", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "My Portfolio",
+		"url": "",
+		"repo": "Public",
+		"descriptionTitle": "An open source portfolio",
+		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "400", "w": "600",  "url": "/img/portfolio.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "mongodb", 	"name": "MongoDB", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+		]
+	}
+]

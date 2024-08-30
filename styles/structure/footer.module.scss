@@ -1,0 +1,129 @@
+@import '../scss/_mixins';
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	> div {
+		display: flex;
+		flex-direction: column;
+		gap: var(--size-3x);
+	}
+
+	h4 {
+		margin-bottom: var(--size-1x);
+	}
+
+	a {
+		font-size: .875rem;
+		font-weight: 600;
+		color: var(--primary);
+
+		&:hover {
+			color: var(--primary-bright);
+		}
+	}
+
+	p {
+		font-size: .875rem;
+	}
+
+	.sections {
+		$gap: 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center; // Center items horizontally
+		gap: $gap;
+
+		svg {
+			height: .875rem;
+			vertical-align: -0.1rem;
+			margin-left: .125rem;
+		}
+
+		ul {
+			// Remove nth-of-type specific widths for responsive behavior
+			width: 100%; // Ensure ul takes full width for responsiveness
+
+			li {
+				overflow-wrap: break-word;
+				margin-bottom: var(--size-2-);
+			}
+		}
+	}
+
+	.socialList {
+		display: flex;
+		flex-direction: row;
+		justify-content: center; // Center the social icons horizontally
+		gap: 1rem;
+
+		svg {
+			height: 2rem;
+		}
+	}
+
+	.svg-inline--fa.fa-code-branch {
+		margin-left: 1rem;
+
+		.fa-secondary {
+			fill: #a371f7;
+			opacity: 1;
+		}
+	}
+
+	.github {
+		* {
+			font-size: 1rem;
+			font-family: var(--font-accent);
+			font-weight: 600;
+			letter-spacing: -.01rem;
+		}
+
+		> a {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: fit-content;
+			margin: 0 auto;
+			gap: var(--size-2-);
+			filter: grayscale(1);
+
+			&:hover {
+				filter: grayscale(0);
+			}
+
+			ul {
+				display: flex;
+				flex-direction: row;
+				justify-content: center; // Center the GitHub items horizontally
+				gap: 1rem;
+			}
+		}
+	}
+}
+
+@include media($max: $mobile) {
+	.container {
+		.sections {
+			flex-direction: column-reverse;
+			text-align: center;
+			gap: 3rem;
+
+			.ul {
+				width: 100% !important; // Override specific widths for responsiveness
+				text-align: center; // Center the content inside the ul
+	
+			}
+			.socialHeading {
+				text-align: center; // Center the heading text
+				margin-bottom: var(--size-2x); // Adjust margin as needed
+			}
+
+			.socialList {
+				justify-content: center; // Ensure social icons are centered on mobile
+			}
+		}
+	}
+}
