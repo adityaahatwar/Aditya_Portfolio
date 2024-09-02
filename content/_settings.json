@@ -2,11 +2,14 @@
 	"name": "Aditya Hatwar",
 	"logo": "",
 	
-
+	"username": {
+		"github": "adityaahatwaar",
+		"medium": "adityaahatwaar"
+	},
 
 	"portfolio": { 
-		
-		"forkthis": "Lets Collaborate!"
+		"forkthis": "Let's Collaborate 🥰",
+		"repo_html": "https://www.github.com/adityaahatwar/Aditya_Portfolio",
+		"repo_api": "https://api.github.com/repos/adityaahatwar/Aditya_Portfolio"
 	}
-	
 }
