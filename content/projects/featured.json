@@ -16,7 +16,9 @@
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
 			{ "key": "google",		"name": "GA4/GTM/EEC", 	"type": "devicon" },
-			{"key":"react",       "name":"REACTJS", "type":"devicon"}
+			{ "key": "react",       "name":"REACT",       "type":"devicon"},
+			{ "key": "nodejs", 		"name": "THREE.js", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" }
 		]
 	},
 	{
@@ -38,7 +40,7 @@
 	},
 	{
 		"project": "Park-EZ | Figma Prototype",
-		"url": "https://mysupplyco.com",
+		"url": "",
 		"repo": "Private",
 		"descriptionTitle": "A convenient app that helps users find the nearest available parking spot in real time.",
 		"description": "With easy navigation and a clean interface, Park-EZ simplifies the parking experience.",
@@ -75,7 +77,7 @@
 	{
 		"project": "My Portfolio",
 		"url": "",
-		"repo": "Public",
+		"repo": "Private",
 		"descriptionTitle": "An open source portfolio",
 		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
 		"imageOptions": [

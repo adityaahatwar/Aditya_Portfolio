@@ -72,8 +72,8 @@ export default function Hero() {
 					className={`button ${button.secondary} leaveSite`} 
 					onClick={() => {
 						const link = document.createElement('a');
-						link.href = "/Aditya_Hatwar.pdf";
-						link.download = "Aditya_Hatwar.pdf";
+						link.href = "/AdityaHatwar_Resume.pdf";
+						link.download = "AdityaHatwar_Resume.pdf";
 						document.body.appendChild(link);
 						link.click();
 						document.body.removeChild(link);
